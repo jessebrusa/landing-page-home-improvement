@@ -1,0 +1,11 @@
+Rangoon Green
+#0E0C0A
+
+Nomad
+#B6AEA2
+
+Bitter
+#7B7C7A
+
+Empress
+#757374
