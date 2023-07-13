@@ -27,6 +27,11 @@ body {
     padding: 25px;
 }
 
+.nav > a > img {
+    width: 50px;
+    margin-right: 10px;
+}
+
 .nav > div {
     display: flex;
     margin-left: auto;
@@ -58,7 +63,7 @@ div > a:active {
     margin-right: auto;
     justify-content: space-evenly;
     align-items: center;
-    background-color: #B6AEA2;
+    background-color: rgba(182, 174, 162, .9);
     border-radius: 15px;
     flex-wrap: wrap;
     padding: 15px;
@@ -84,7 +89,6 @@ h1 {
 
 p {
     color: white;
-    /* width: 600px; */
     text-align: justify;
     font-size: 20px;
     margin: 0%;
@@ -98,8 +102,126 @@ p {
     max-width: 300px;
     border-radius: 10px;
     margin-bottom: 10px;
+    transition: all 0.3s ease;
 }
 
 .hero-container > img:hover {
-    transform: scale(1.7);
+    transform: scale(2);
+}
+
+.transform-card-container {
+    margin-top: 200px;
+    margin-bottom: 200px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.transform-card-1 > img {
+    width: 200px;
+    border: 20px solid #B6AEA2;
+    border-radius: 5px;
+}
+
+.transform-card-1 > img:hover {
+    transform: scale(2);
+    opacity: 1;
+}
+
+.image-parent {
+    position: relative;
+}
+
+.before-1 {
+    position: relative;
+}
+
+.after-1 {
+    position: absolute;
+    left: 2px;
+    opacity: 0%;
+    transition: all 0.9s ease;
+}
+
+.transform-card-2 > img {
+    width: 200px;
+    border: 20px solid #B6AEA2;
+    border-radius: 5px;
+}
+
+.transform-card-2 > img:hover {
+    transform: scale(2);
+    opacity: 1;
+}
+
+.image-parent-2 {
+    position: relative;
+}
+
+.before-2 {
+    position: relative;
+}
+
+.after-2 {
+    position: absolute;
+    left: 2px;
+    opacity: 0%;
+    transition: all 0.9s ease;
+}
+
+.credentials-container {
+    background-color: rgba(123, 124, 122, .9);
+    border-radius: 10px;
+    padding: 50px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.license {
+    height: 325px;
+    flex-shrink: 1;
+    flex-basis: 550px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.award {
+    width: 400px;
+}
+
+.home-gallery-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 200px;
+}
+
+.home-gallery-container img {
+    height: 300px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: 20px solid #B6AEA2;
+    border-radius: 5px;
+    transition: all .4s ease;
+}
+
+.home-gallery-container img:hover {
+    transform: scale(2);
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #7B7C7A;
+    border-radius: 5px;
+    margin-top: 150px;
+    font-family: 'cabin';
 }
